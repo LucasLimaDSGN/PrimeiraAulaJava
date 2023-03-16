@@ -25,7 +25,7 @@ public class OlaMundo {
 		
 		media = (nota1+nota2+nota3)/3;
 		
-	
+		
 		System.out.printf("\nA media aritimetica foi de: %.2f",media);
 	}
 
