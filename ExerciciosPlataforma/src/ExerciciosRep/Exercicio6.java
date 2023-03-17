@@ -9,7 +9,7 @@ public class Exercicio6 {
 		Scanner read = new Scanner(System.in);
 		
 		int num, totdiv=0, qtd=0;
-		float tMed;
+		double tMed;
 		
 		do {
 			System.out.println("Digite um numero: \n(Pressione 0 para sair)");
@@ -26,7 +26,7 @@ public class Exercicio6 {
 		
 		
 		tMed=totdiv/qtd;
-		System.out.printf("\nA media de todos o numeros diviseis por 3 digitados e: %.1f",tMed);
+		System.out.printf("\nA media de todos o numeros diviseis por 3 digitados e: %.2f",tMed);
 	}
 
 }
